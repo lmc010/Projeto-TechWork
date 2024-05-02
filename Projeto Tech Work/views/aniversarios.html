@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div>
+
+        
+
+      </div>
+
+   
+
+    <form action="{{url_for('aniversarios')}}" method="POST">
+         <div>
+           <h1>Aniversarios</h1>
+           <label for="nome">Digite o Nome do Aluno e sua data de aniversario:</label>
+           <br>
+           <br>
+            <input class="input-aniversario"type="text" name="aluno" placeholder="Ex: Ricardo Alonso - 28/05">
+            <br>
+            <br>
+            <input type="submit" name="Postar">
+         <br>
+         <br>
+         <ul>
+          {% for aluno in aniversario %}
+          <li>{{aluno}}</li>
+            {% endfor %}
+        </ul>
+           
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+
+{% endblock content %}

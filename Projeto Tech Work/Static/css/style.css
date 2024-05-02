@@ -1,0 +1,88 @@
+a{
+    text-align: center;
+}
+
+h4{
+    margin-left: 50px;
+}
+
+table{
+    margin-left: 50px;
+}
+
+
+.slogan{
+    text-align: center;
+}
+
+.label-cadalunos{
+    margin-left: 50px
+}
+
+
+.input-cadalunos {
+    margin-left: 5px;
+}
+
+.input-aniversario{
+    width: 250px;
+}
+
+.input-cadastrar{
+    margin-left: 50px;
+}
+
+footer{
+    background-color: rgb(13, 110, 253);
+}
+
+footer p{
+    color: aliceblue;
+}
+
+nav{
+    background-color: aqua;
+    color: aqua;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.nav-item{
+    margin-left: 820px;
+}
+
+.sobre{
+    margin-left: 30px;
+}
+
+.descricao{
+    margin-left: 20px
+}
+
+form h1{
+    margin-left: 50px;
+}
+
+
+form label{
+    margin-left: 50px;
+}
+
+
+form input{
+    margin-left: 50px;
+}
+
+h2{
+    margin-left: 50px;
+}
+
+summary{
+    margin-left: 50px;
+}
+
+table{
+    margin-left: -1px;
+}
